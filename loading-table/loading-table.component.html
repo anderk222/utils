@@ -1,0 +1,10 @@
+<div class="w-full flex flex-col justify-center text-zinc-700 items-center gap-2 h-80" >
+
+    <figure [style]="{ 'background-image' : 'url(' + photos[status] +')' }" class="bg-loading w-44 h-44" >
+    </figure>
+    <p *ngIf="status =='LOAD'" class="text-center" >Cargando...</p>
+    <p *ngIf="status =='NOTHING'" class="text-center" >No hay elementos que mostrar</p>
+    <p *ngIf="status =='ERROR'" class="text-center text-red-500"> Ha ocurrido un error</p>
+
+
+</div>

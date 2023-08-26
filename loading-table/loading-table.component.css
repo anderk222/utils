@@ -1,0 +1,7 @@
+.bg-loading{
+
+    background-image: url(/assets/esperando2.jpeg);
+    background-size:contain;
+    background-repeat: no-repeat;
+
+}
